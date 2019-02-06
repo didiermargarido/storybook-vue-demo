@@ -1,5 +1,4 @@
 import { storiesOf } from '@storybook/vue';
-import { action } from '@storybook/addon-actions';
 
 // Imports
 import Example from '@/example';
@@ -7,16 +6,16 @@ import Example from '@/example';
 // Stories
 storiesOf('Base', module)
 	.add('Default', () => ({
-		components: { 
+		components: {
 			Example
 		},
-		template: 
+		template:
 			`<example>Default</example>`
 	}))
 	.add('Info', () => ({
-		components: { 
+		components: {
 			Example
 		},
-		template: 
+		template:
 			`<example status="info">Info</example>`
 	}))

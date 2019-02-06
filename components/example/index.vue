@@ -1,23 +1,23 @@
 <template>
-    <div 
-        class="example"
-        :class="{
-        [`example--${status}`] : status
-        }"
-    >
-        <slot></slot>
-    </div>
+  <div
+    class="example"
+    :class="{
+      [`example--${status}`] : status
+    }"
+  >
+    <slot></slot>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "Example",
-    props: {
-        status: {
-            type: String,
-            default: ''
-        }
-    },
+  name: "Example",
+  props: {
+    status: {
+      type: String,
+      default: ''
+    }
+  }
 }
 </script>
 

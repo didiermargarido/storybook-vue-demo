@@ -1,10 +1,10 @@
 @import "variables";
 
 .example {
-    display: block;
-    background-color: $example-bg-color;
+  display: block;
+  background-color: $example-bg-color;
 
-    &--info {
-        background-color: $example-bg-info-color;
-    }
+  &--info {
+    background-color: $example-bg-info-color;
+  }
 }
