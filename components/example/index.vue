@@ -4,6 +4,7 @@
     :class="{
       [`example--${status}`] : status
     }"
+    @click="$emit('egClick', $event)"
   >
     <slot></slot>
   </div>
